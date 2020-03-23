@@ -5,6 +5,7 @@ RUN apk -v --update add \
         mailcap \
         bash \
         zip \
+        openssl \
         && \
     pip install --upgrade awscli==1.18.27 && \
     pip install --upgrade  s3cmd==2.0.2  python-magic requests==2.23.0 argparse==1.4.0 && \
